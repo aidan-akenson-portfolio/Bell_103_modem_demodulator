@@ -24,7 +24,18 @@ while ignoring the start and stop bits. The ascii
 conversion is then run, and a string is generated  
 and printed representing the contents of the file.  
 
-
+  
 ================= SETUP =================  
 Make sure Jupyter Notebook, numpy, and soundfile  
-are installed, then run modem.ipynb.  
+are installed, then run modem.ipynb. 
+
+  
+============ NOT IMPLEMENTED ============  
+This program assumes that the .wav file has no  
+header, and when fed one which does, it will  
+produce nonsensical output.  
+It also does not do any windowing, and cannot  
+interface with any hardware.  
+Most of all, this implementation is only half  
+of a modem. No encoding is being done; messages  
+are only received, not sent.
