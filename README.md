@@ -1,6 +1,6 @@
 Aidan Akenson
 
-===================== METHOD =====================
+===================== METHOD =====================  
 I broke the task down into components I could
 tackle more easily individually and then chain 
 together.
@@ -25,6 +25,6 @@ conversion is then run, and a string is generated
 and printed representing the contents of the file.
 
 
-===================== SETUP =====================
+===================== SETUP =====================  
 Make sure Jupyter Notebook, numpy, and soundfile
 are installed, then run modem.ipynb.
