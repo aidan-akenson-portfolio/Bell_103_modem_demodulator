@@ -1,7 +1,9 @@
 Aidan Akenson
 
+===================== METHOD =====================
 I broke the task down into components I could
-tackle more easily individually and then chain together.
+tackle more easily individually and then chain 
+together.
 
 1. I used the pseudocode you provided to make a 
 frequency power checking function. This was tested
@@ -21,3 +23,8 @@ data from a .wav file and processes every data bit
 while ignoring the start and stop bits. The ascii
 conversion is then run, and a string is generated
 and printed representing the contents of the file.
+
+
+===================== SETUP =====================
+Make sure Jupyter Notebook, numpy, and soundfile
+are installed, then run modem.ipynb.
